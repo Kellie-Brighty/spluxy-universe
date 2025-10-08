@@ -55,7 +55,6 @@ const Home: React.FC = () => {
                       <div className="flex justify-center mb-8">
                         <div className="bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-8 py-4">
                           <span className="text-white font-semibold text-lg">Introducing Spluxy AI</span>
-                          <span className="ml-3 text-white text-lg">→</span>
                         </div>
                       </div>
                       
@@ -121,7 +120,6 @@ const Home: React.FC = () => {
                       <div className="flex justify-center mb-6">
                         <div className="bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-6 py-3">
                           <span className="text-white font-semibold text-sm">Introducing Spluxy AI</span>
-                          <span className="ml-2 text-white">→</span>
                         </div>
                       </div>
                       
@@ -562,8 +560,8 @@ const Home: React.FC = () => {
             </SpluxyButton>
             
             {/* Secondary CTA */}
-            <button className="text-white/90 hover:text-white text-lg font-semibold underline underline-offset-4 hover:underline-offset-8 transition-all duration-300">
-              Learn More →
+            <button className="bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 border border-white/30 hover:border-white/50 text-lg font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl">
+              Learn More
             </button>
           </div>
           
